@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare",
+  "version": "0.0.1",
+  "description": "",
+  "main": "json.js",
+  "dependencies": {
+    "async": "~0.2.10",
+    "spidex": "~1.0.2",
+    "sugar": "~1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "XadillaX",
+  "license": "GPLv2"
+}
