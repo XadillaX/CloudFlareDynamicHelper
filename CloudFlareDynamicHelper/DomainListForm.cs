@@ -172,6 +172,9 @@ namespace CloudFlareDynamicHelper
             // ip...
             String ip = GetIp();
 
+            // if ip is `0.0.0.0` then return...
+            if (ip == "0.0.0.0") return;
+
             // all selected domains...
             for (int i = 0; i < dataGridView1.Rows.Count; i++)
             {
